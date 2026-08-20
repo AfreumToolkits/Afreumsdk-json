@@ -13,9 +13,9 @@
     "geo"
   ],
   "homepage": "https://afreum.com",
-  "repository": {
+"repository": {
     "type": "git",
-    "url": "https://github.com/AfreumToolkits/Afreumsdk-json.git"
+    "url": "git+https://github.com/AfreumToolkits/Afreumsdk-json.git"
   },
   "license": "MIT",
   "author": "Afreum",
