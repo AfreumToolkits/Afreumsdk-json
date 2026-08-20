@@ -2,11 +2,11 @@
 
 ## afreumtoolkits
 
-An unofficial developer toolkit/SDK that wraps the [Afreum Ecosystem public JSON data](https://github.com/Afreum/json) — tokens, geo, and logos — behind a typed, cached, promise-based API.
+The official Afreum developer toolkit/SDK, published by Afreum. It wraps the [Afreum Ecosystem public JSON data](https://github.com/Afreum/json) — tokens, geo, and logos — behind a typed, cached, promise-based API built for the Stellar chain.
 
 This package does not host or modify Afreum's data; it fetches the same JSON/IPFS endpoints published in [`Afreum/json`](https://github.com/Afreum/json) and gives you convenient methods, TypeScript types, in-memory caching, and helper lookups on top.
 
-> Not affiliated with or endorsed by Afreum. Data source, field definitions, and licensing for the underlying JSON files belong to Afreum ([GPL-3.0](https://github.com/Afreum/json/blob/main/LICENSE)). This SDK's own code is MIT-licensed.
+> Maintained by the Afreum team. Data source, field definitions, and licensing for the underlying JSON files belong to Afreum ([GPL-3.0](https://github.com/Afreum/json/blob/main/LICENSE)). This SDK's own code is MIT-licensed.
 
 ## Install
 
