@@ -1,0 +1,42 @@
+{
+  "name": "afreumtoolkits",
+  "version": "0.1.0",
+  "description": "Unofficial developer toolkit/SDK for the Afreum Ecosystem public JSON data (tokens, geo, logos).",
+  "keywords": [
+    "afreum",
+    "stellar",
+    "blockchain",
+    "sdk",
+    "toolkit",
+    "tokens",
+    "geo"
+  ],
+  "homepage": "https://afreum.com",
+  "license": "MIT",
+  "author": "afreumtoolkits contributors",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "npm run build && node --test tests/client.test.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
